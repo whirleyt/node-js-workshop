@@ -17,5 +17,5 @@ process.stdout.write('prompt > ');
 // });
 
 var cmds = require('./command.js');
-process.stdin.on('data', cmds.cmd);
+process.stdin.on('data', cmds.cmdReader);
 
